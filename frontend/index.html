@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Form Filling Assistant | India</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>🇮🇳 AI Form Filling Assistant</h1>
+    <p>Smart document-based form auto-filling for Indian citizens</p>
+</header>
+
+<main class="container">
+    <div class="upload-card">
+        <h2>Upload Document</h2>
+        <p>Aadhaar / PAN / Voter ID</p>
+
+        <input type="file" id="fileInput">
+        <button onclick="uploadFile()">Upload & Extract</button>
+
+        <div id="loading" class="hidden">⏳ Processing document...</div>
+    </div>
+
+    <div class="result-card">
+        <h2>Extracted Details</h2>
+
+        <label>Name</label>
+        <input type="text" id="name">
+
+        <label>Date of Birth</label>
+        <input type="text" id="dob">
+
+        <label>Aadhaar Number</label>
+        <input type="text" id="aadhaar">
+    </div>
+</main>
+
+<footer>
+    <p>© 2025 AI Form Filling Assistant | Built for Seva Kendras</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
